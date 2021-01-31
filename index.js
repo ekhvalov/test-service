@@ -3,7 +3,7 @@ let http = require('http');
 //Create a server
 let server = http.createServer(function (req, res) {
     res.writeHead(200, {'Content-Type': 'text/plain'});
-    res.end('0.1.1');
+    res.end('0.1.2');
 });
 server.listen(8080); //the server object listens on port 8080
 process.on('SIGINT', function () {
