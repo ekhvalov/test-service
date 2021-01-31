@@ -1,4 +1,4 @@
-FROM nginx:1.19.6-alpine
+FROM node:14.15-alpine
 
 COPY index.js /index.js
 
